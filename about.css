@@ -1,0 +1,17 @@
+body {
+    display: grid; 
+    background-color: burlywood;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr)
+    
+}
+
+h1 {
+    grid-column: 3/11;
+    grid-row: 3/11;
+    color:black;
+
+}
