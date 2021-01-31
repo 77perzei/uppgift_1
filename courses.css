@@ -13,12 +13,4 @@ h1 {
     grid-column: 2/11;
     grid-row: 3/11;
     color:black;
-
-}
-.aboutdotted {
-
-    grid-column: 2/11;
-    grid-row: 6/11;
-    color: black;
-    font-size: x-large;
 }
