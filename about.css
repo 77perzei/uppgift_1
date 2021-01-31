@@ -2,23 +2,28 @@ body {
     display: grid; 
     background-color: burlywood;
     height: 100vh;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr)
-    
+    grid-template-rows: repeat(10, 1fr)    
 }
-
-h1 {
-    grid-column: 2/11;
-    grid-row: 3/11;
+.navbar {
+    grid-column: 1/11;
+    grid-row: 1/11;
+    background-color: cornsilk;
     color:black;
-
 }
 .aboutdotted {
-
-    grid-column: 2/11;
-    grid-row: 6/11;
+    grid-column: 1/11;
+    grid-row: 2/11;
     color: black;
+    background-color: burlywood;
     font-size: x-large;
 }
+h1 {
+    grid-column: 1/11;
+    grid-row: 5/11;
+    background-color: burlywood;
+    color:black;
+}
+
