@@ -1,29 +1,37 @@
 body {
     display: grid; 
-    background-color: burlywood;
+    background-color: cornsilk;
     height: 100vh;
-    margin: 10;
-    padding: 10;
+    margin: 20;
+    padding: 20;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr)    
+    grid-template-rows: repeat(10, 1fr)
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
 }
 .navbar {
-    grid-column: 1/11;
-    grid-row: 1/11;
+    
+    grid-column: 5/11 ;
+    grid-row: 1;
     background-color: cornsilk;
     color:black;
-}
-.aboutdotted {
-    grid-column: 1/11;
-    grid-row: 2/11;
-    color: black;
-    background-color: burlywood;
-    font-size: x-large;
-}
-h1 {
-    grid-column: 1/11;
-    grid-row: 5/11;
-    background-color: burlywood;
-    color:black;
-}
+    font-family: 'Raleway', sans-serif;
 
+    }
+.aboutdotted {
+    grid-column: 3;   
+    grid-row: 5 ;
+    background-color: cornsilk;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    }
+
+
+.footer {
+    grid-column: 5/11;
+    grid-row: 11/11;
+    background-color: cornsilk;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+
+    }
