@@ -17,10 +17,12 @@ body {
     color:black;
     font-family: 'Raleway', sans-serif;
 
-    }
+    }    
+
+
 .aboutdotted {
-    grid-column: 3;   
-    grid-row: 5 ;
+    grid-column: 4/8;   
+    grid-row: 4 ;
     background-color: cornsilk;
     color:black;
     font-family: 'Raleway', sans-serif;
