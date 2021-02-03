@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;500;800&family=Permanent+Marker&display=swap" rel="stylesheet">
-
+    
 }
       
 .header {
@@ -65,7 +65,8 @@ body {
     width: 100%;
     background-color:goldenrod;
     color: white;
-    text-align: center;
+    text-align:center ;
     padding: 20px;
-    font-family: 'Manrope', sans-serif;
+
+    
  }
