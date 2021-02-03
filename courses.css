@@ -42,8 +42,8 @@ body {
   
   .column {
     float:left;
-    width:30%;
-    padding: 15px;
+    width:39%;
+    padding: 10px 100px;
     font-family: 'Manrope', sans-serif;
   }
   
@@ -67,6 +67,6 @@ body {
     color: white;
     text-align:center ;
     padding: 20px;
-
+    font-family: 'Manrope', sans-serif;
     
  }
