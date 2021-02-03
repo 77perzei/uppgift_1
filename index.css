@@ -4,8 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;500;800&family=Permanent+Marker&display=swap" rel="stylesheet">
+    
 
 }
       
@@ -13,7 +12,8 @@ body {
     background-color: gold;
     padding: 20px;
     text-align: center;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
    
   }
   
