@@ -43,8 +43,8 @@ body {
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
-    width: 31%;
-    padding: 50px 675px;
+    width: 33%;
+    padding: 1px 650px;
     font-family: 'Manrope', sans-serif;
     
     

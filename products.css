@@ -23,8 +23,8 @@ body {
   }
   
   
-  /* Style the topnav links */
-  .topnav a {
+
+.topnav a {
     float: left;
     display: block;
     color: white;
@@ -33,29 +33,48 @@ body {
     text-decoration: none;
     font-family: 'Manrope', sans-serif;
   }
-  
-  /* Change color on hover */
-  .topnav a:hover {
+
+.topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  
-  .column {
+.TL {
     float: left;
-    width: 70%;
-    padding: 15px 350px;
+    width: 40%;
+    padding: 100px 150px;
     font-family: 'Manrope', sans-serif;
   }
-  
-  .row:after {
+
+.TR {
+    float: left;
+    width: 40%;
+    padding: 50px 10px;
+    font-family: 'Manrope', sans-serif;
+  }
+.BL {
+  float: left;
+  width: 40%;
+  padding: 10px 150px;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+.BR {
+  float: left;
+  width: 40%;
+  padding: 280px 10px;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+.row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width:600px) {
+
+@media screen and (max-width:600px) {
     .column {
       width: 100%;
     }
@@ -65,7 +84,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:goldenrod;
+    background-color:goldenrod ;
     color: white;
     text-align: center;
     padding: 20px;
